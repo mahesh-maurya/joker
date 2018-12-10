@@ -1963,7 +1963,7 @@ button:focus {
 @media (min-width: 480px) and (max-width: 590px) {
   .navbar-expand-sm {
     justify-content: space-between; } }
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 590px) {
   .Menu li a {
     font-size: 13px; }
 
