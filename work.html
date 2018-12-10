@@ -86,7 +86,43 @@
 </style>
 </head>
 <body>
-
+        <div class="loader" id="loader">  
+                <div class="batmanLoader">
+                  <div class="bat-cave">
+                  <div class="left-wing-connector">
+                      <div></div> <!-- 1 --> 
+                      <div></div> <!-- 2 --> 
+                      <div></div> <!-- 3 --> 
+                  </div>
+                  <div class="left-wing">
+                      <div></div> <!-- 1 --> 
+                      <div></div> <!-- 2 --> 
+                      <div></div> <!-- 3 -->
+                      <div class="left-smoother">
+                      </div>
+                  </div>
+                  <div class="bat-body">
+                      <div></div> <!-- 1 --> 
+                      <div></div> <!-- 2 --> 
+                      <div></div> <!-- 3 --> 
+                      <div></div> <!-- 4 --> 
+                      <div></div> <!-- 5 --> 
+                  </div>
+                  <div class="right-wing-connector">
+                      <div></div> <!-- 1 --> 
+                      <div></div> <!-- 2 --> 
+                      <div></div> <!-- 3 --> 
+                  </div>
+                  <div class="right-wing">
+                      <div></div> <!-- 1 --> 
+                      <div></div> <!-- 2 --> 
+                      <div></div> <!-- 3 -->
+                      <div class="right-smoother">                
+                      </div>
+                  </div>
+                  </div>
+                  </div>
+            </div>
 
 <!-- Header -->
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
@@ -478,7 +514,11 @@
 </div>
 <script src="js/wow.js"></script>
 <script> new WOW().init(); </script>
-
+<script>
+        $(document).ready( function() {
+              $('#loader').delay(1000).fadeOut();
+            });	
+      </script>
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
       anchors: ['About','Services','Email','Footer'],
