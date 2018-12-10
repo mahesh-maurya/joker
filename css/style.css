@@ -2015,7 +2015,8 @@ button:focus {
 
   .navbar {
     justify-content: center;
-    display: block; }
+    display: block;
+    text-align: center; }
 
   img.logo {
     width: 57px; }
