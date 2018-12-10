@@ -1781,17 +1781,23 @@ button:focus {
       .FooterSocial ul li:first-child {
         padding: 0 0; }
       .FooterSocial ul li a {
-        color: #fff; }
+        color: #fff;
+        font-weight: 300;
+        font-family: 'affogato'; }
 
 .Allreserve {
   color: #7b7b7b;
   font-size: 13px;
-  padding-top: 30px; }
+  padding-top: 30px;
+  font-weight: 300;
+  font-family: 'affogato'; }
 
 .MadeBy {
   color: #7b7b7b;
   font-size: 13px;
-  padding-top: 10px; }
+  padding-top: 10px;
+  font-weight: 300;
+  font-family: 'affogato'; }
 
 .BatmanMove {
   -o-animation-name: Batman;
