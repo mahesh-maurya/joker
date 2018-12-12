@@ -654,6 +654,7 @@ button{
 	@include animation-fill-mode(forwards);
 	position: relative;
 	z-index: 999;
+	animation-delay: 1s;
 }
 
 .BackBuild {
@@ -665,7 +666,7 @@ button{
 	//  @include animation(Jump, 0.4s, forwards);
 	// @include animation-iteration-count(forwards);
 	// animation:  0.4s forwards ;
-	animation-delay: 0.8s;
+	animation-delay: 1.2s;
 	opacity: 0;
 	opacity: 1\9;
 }
@@ -782,17 +783,15 @@ button{
 		opacity: 1;
 	}
 }
-
 #CarCrash {
 	@include animation-name(Car);
 	@include animation-duration(0.7s);
 	@include animation-fill-mode(forwards);
 	@include animation-timing-function(ease-in);
-	// animation-delay: 1s;
+	animation-delay: 2s;
 	opacity: 0;
 	opacity: 1\9;
 }
-
 @include keyframes(Car) {
 	0% {
 		transform: translatey(-70px);
@@ -825,7 +824,7 @@ button{
 	@include animation-duration(0.4s);
 	@include animation-fill-mode(forwards);
 	@include animation-timing-function(linear);
-	animation-delay: 3s;
+	animation-delay: 4s;
 	opacity: 0;
 	opacity: 1\9;
 	transform-origin: 600px 600px;
@@ -836,7 +835,7 @@ button{
 	@include animation-duration(0.6s);
 	@include animation-fill-mode(forwards);
 	@include animation-timing-function(linear);
-	animation-delay: 3.2s;
+	animation-delay: 4.2s;
 	opacity: 0;
 	opacity: 1\9;
 	transform-origin: 600px 600px;
@@ -847,7 +846,7 @@ button{
 	@include animation-duration(0.8s);
 	@include animation-fill-mode(forwards);
 	@include animation-timing-function(linear);
-	animation-delay: 3.3s;
+	animation-delay: 4.3s;
 	opacity: 0;
 	opacity: 1\9;
 	transform-origin: 600px 600px;
@@ -858,7 +857,7 @@ button{
 	@include animation-duration(0.4s);
 	@include animation-fill-mode(forwards);
 	@include animation-timing-function(linear);
-	animation-delay: 1s;
+	animation-delay: 3s;
 	opacity: 0;
 	opacity: 1\9;
 	transform-origin: 600px 600px;
