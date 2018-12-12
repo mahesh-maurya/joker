@@ -1943,7 +1943,7 @@ button:focus {
     y: 90.807; } }
 @media (max-width: 767px) {
   .AboutText {
-    padding: 30px 10px; }
+    padding: 30px 0px; }
 
   .Joker_hello h1 {
     font-size: 3.5rem; }
@@ -2004,7 +2004,7 @@ button:focus {
     display: none; }
 
   .AboutText h2 {
-    font-size: 1.8rem; }
+    font-size: 1.8rem !important; }
   .AboutText p {
     font-size: 14px; }
 
